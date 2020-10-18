@@ -52,6 +52,23 @@ To mimic the process, I have a demonstration. Try to follow me at the and do not
 
 ## Example:
 
+Now, let's do an example. It's time to act like a CPU. When we write our code and try to run it, what we do actually is that we've created our instructions to solve a problem and our computer takes our instructions to actually do the task that we've implemented in our solution. 
+
+e.g.
+``` python
+def sum(a,b):
+    return a+b
+
+sum(5,4)
+```
+
+When we run this code block, actually we have some abstract instruction set in the code logic.
+What the computer does is that it actually converts our high level instructions to low level binary instructions to execute on electronic circuits and CPU is the controlling unit of this whole process.
+
+In the example below, we have our CPU, Primary & Secondary Memory, Input and Output parts. I'll give you several instructions and you'll try to act like a processor and control and execute the instruction set given to you. That'll help you understand the journey of your code from coding phase to the end of execution phase.
+
+![](./media/arch.png)
+
 ## Now, it's time for Q/A. Feel free to ask your questions!
 
 Note: Use Raise Hand option in Zoom application to prevent multiple talker at the same time. I'll give you permission to ask your questions.
